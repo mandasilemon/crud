@@ -1,0 +1,79 @@
+body{
+	font-family: 'Jost', sans-serif;
+    margin: 0;
+	padding: 0;
+	/* background:linear-gradient(to bottom, #0f0c29, #302b63, #24243e); */
+    background-color:#efcdf7;
+    border-radius:80px;
+}
+ 
+h1{
+	text-align: center;
+	/*ketebalan font*/
+	font-weight: 300;
+    font-family : 'Jost';
+    color : #f70d57;
+    text-transform: uppercase;
+}
+ 
+
+ 
+.kotak_tambah{
+	width: 350px;
+	background: #e57f84;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+    border-radius:30px;
+}
+ 
+label{
+	font-size: 11pt;
+}
+
+
+
+.form_tambah{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+    border-radius:30px;
+}
+
+/* .pRegis{
+    text-align: center;
+} */
+
+.kembali{ 
+    background-color:#f70d57;
+    color:#fafafa;
+    border:none;
+    border-radius:15px;
+    padding: 6px 50px;
+    cursor: pointer;
+    font-size : 17px;
+    text-decoration:none;
+    float:left;
+    
+}
+ 
+.tombol_simpan{
+    background-color:#f70d57;
+    color:#fafafa;
+    border:none;
+    border-radius:15px;
+    padding: 6px 50px;
+    cursor: pointer;
+    font-size : 17px;
+    text-decoration:none;
+    float:right;
+}
+ 
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
